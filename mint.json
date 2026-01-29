@@ -1,0 +1,99 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Verita Talent Docs",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#22C55E",
+    "dark": "#15803D",
+    "anchors": {
+      "from": "#16A34A",
+      "to": "#22C55E"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Support",
+      "url": "mailto:support@verita-ai.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Dashboard",
+    "url": "https://verita-ai.com"
+  },
+  "tabs": [
+    {
+      "name": "Documentation",
+      "url": "welcome"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Contact Us",
+      "icon": "envelope",
+      "url": "mailto:support@verita-ai.com"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "welcome/welcome"
+      ]
+    },
+    {
+      "group": "Policies",
+      "pages": [
+        "policies/llm-usage",
+        "policies/social-media",
+        "policies/ai-and-data"
+      ]
+    },
+    {
+      "group": "Payments & Tax",
+      "pages": [
+        "payments/tax-overview",
+        "payments/supported-countries"
+      ]
+    },
+    {
+      "group": "Regional Guides",
+      "pages": [
+        {
+          "group": "United States",
+          "pages": [
+            "regional/us/1099-vs-w2",
+            "regional/us/f1-visa",
+            "regional/us/h1b-visa"
+          ]
+        },
+        {
+          "group": "European Union",
+          "pages": [
+            "regional/eu/contractor-considerations"
+          ]
+        },
+        {
+          "group": "United Kingdom",
+          "pages": [
+            "regional/uk/contractor-considerations"
+          ]
+        },
+        {
+          "group": "India",
+          "pages": [
+            "regional/india/contractor-considerations"
+          ]
+        }
+      ]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://verita-ai.com",
+    "linkedin": "https://linkedin.com/company/verita-ai"
+  }
+}
