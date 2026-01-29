@@ -25,12 +25,6 @@
     "name": "Dashboard",
     "url": "https://verita-ai.com"
   },
-  "tabs": [
-    {
-      "name": "Documentation",
-      "url": "welcome"
-    }
-  ],
   "anchors": [
     {
       "name": "Contact Us",
